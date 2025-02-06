@@ -1,0 +1,2 @@
+This is a Flask application uses the Faker library to generate dummy essays. When a user visits the `/generate_essays` route via a POST request, the app creates five random text blocks and renders them on an `essays.html` template.
+The main page, served at `/`, simply loads the `index.html` template.
